@@ -10,10 +10,6 @@
     border-radius: 50%;
   }
 
-  .banner-left h6 {
-    font-size: 13px;
-  }
-
   .banner-left h1 {
     font-size: 40px;
   }
@@ -51,5 +47,82 @@
 
   .single-fact {
     margin-bottom: 30px;
+  }
+}
+
+/* untuk smartphone */
+
+@media all and (max-width: 670px) {
+  nav ul {
+    visibility: hidden;
+  }
+
+  .banner-area {
+    overflow: auto;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .col-md-12 {
+    padding: 0;
+  }
+
+  .banner-right .profile {
+    width: 300px;
+    border-radius: 50%;
+  }
+  .banner-left {
+    margin-top: 130px;
+  }
+
+  .banner-left h1 {
+    font-size: 30px;
+  }
+
+  .banner-right {
+    padding: 80px 0 20px;
+    text-align: center;
+  }
+
+  .banner-right .profile {
+    width: 80%;
+  }
+
+  .home-about-left {
+    padding-bottom: 40px;
+  }
+
+  .single-portfolio {
+    padding: 15px;
+  }
+
+  .single-recent-blog {
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color: #04091e;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-left img {
+    width: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-left p {
+    display: none;
+  }
+
+  .footer-left .copy {
+    display: block;
+  }
+
+  .footer-right {
+    display: none;
   }
 }

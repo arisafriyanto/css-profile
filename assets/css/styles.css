@@ -151,7 +151,7 @@ nav ul li:hover > ul.submenu {
 
 .banner-left {
   float: left;
-  padding-top: 257px;
+  margin-top: 257px;
 }
 
 .banner-left h6 {
