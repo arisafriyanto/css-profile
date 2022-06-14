@@ -1,0 +1,55 @@
+/* untuk tablet */
+
+@media all and (max-width: 1000px) {
+  .banner-area .fullscreen {
+    height: 550px;
+  }
+
+  .banner-right .profile {
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  .banner-left h6 {
+    font-size: 13px;
+  }
+
+  .banner-left h1 {
+    font-size: 40px;
+  }
+
+  .home-about-area {
+    padding-bottom: 0;
+  }
+
+  .home-about-left {
+    padding-top: 45px;
+  }
+
+  .home-about-left .profile-about {
+    width: 280px;
+    border-radius: 30% 0;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .home-about-right h1 {
+    margin-bottom: 35px;
+    font-size: 20px;
+  }
+
+  .home-about-right p {
+    margin-bottom: 30px;
+    max-width: 445px;
+  }
+
+  .single-fact {
+    margin-bottom: 30px;
+  }
+}
