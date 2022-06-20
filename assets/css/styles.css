@@ -471,6 +471,25 @@ nav ul li:hover > ul.submenu {
   margin-bottom: 120px;
 }
 
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
+}
+
+.contact-page-area .map-wrap .gmap_canvas iframe {
+  width: 100%;
+  height: 500px;
+}
+
 .contact-page-area .single-contact-address {
   margin-bottom: 8px;
 }
@@ -616,11 +635,6 @@ button {
   float: right;
 }
 
-.recent-post .post-item .media-body h3 {
-  font-size: 16px;
-  margin-bottom: 6px;
-  font-weight: 400;
-}
 .recent-post .media {
   margin-bottom: 20px;
 }
@@ -651,7 +665,6 @@ button {
   font-weight: 400;
 }
 
-/* sdgfvsd */
 footer {
   background-color: #04091e;
   padding: 40px 0;

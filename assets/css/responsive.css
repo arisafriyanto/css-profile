@@ -48,6 +48,44 @@
   .single-fact {
     margin-bottom: 30px;
   }
+
+  .mapouter {
+    width: 100%;
+  }
+
+  .gmap_canvas {
+    width: 100%;
+  }
+
+  .contact-page-area .map-wrap .gmap_canvas iframe {
+    width: 100%;
+  }
+
+  .address-wrap-right {
+    padding-top: 40px;
+  }
+
+  .contact-page-area .single-contact-address {
+    padding: 0 15px;
+  }
+
+  .recent-post .post-item img {
+    float: none;
+  }
+
+  .recent-post .post-item .media-body {
+    float: none;
+  }
+
+  .recent-post .media {
+    text-align: center;
+  }
+
+  .recent-post .post-item .media-body a {
+    font-size: 15px;
+    margin-bottom: 6px;
+    font-weight: 400;
+  }
 }
 
 /* untuk smartphone */
@@ -124,5 +162,28 @@
 
   .footer-right {
     display: none;
+  }
+
+  .mapouter {
+    width: 100%;
+    height: 350px;
+  }
+
+  .gmap_canvas {
+    width: 100%;
+    height: 350px;
+  }
+
+  .contact-page-area .map-wrap .gmap_canvas iframe {
+    width: 100%;
+    height: 350px;
+  }
+
+  .contact-page-area .single-contact-address h5 {
+    font-size: 14px;
+  }
+
+  .address-wrap-right {
+    padding-top: 40px;
   }
 }
